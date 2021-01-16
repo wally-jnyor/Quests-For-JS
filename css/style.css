@@ -1,10 +1,8 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css');
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
 
-.fundoBlue{
-    background:#1E90FF;
-}
-
-.fundoRed{
-    background: #FF0000;
+:root {
+    --font-primary: "Indie flower";
 }
 
 .div-button {
@@ -15,28 +13,61 @@
 }
 
 .div-button button {
+    font-family: var(--font-primary);
+    font-size: 1.6rem;
+    color: #fff;
+    width: 11.3rem;
+    height: 3.5rem;
     margin: 0 2rem;
+    border-radius: .9rem;
+    border: none;
+    outline: none;
+    box-shadow: 0 .7rem #999;
     cursor: pointer;
+}
+
+.BcolorB i::before {
+    font-size: 1.5rem;
+    color: #fff;
+    justify-content: center;
+    display: flex;
+    margin-left: 1rem;
+}
+
+.BcolorR i::before {
+    font-size: 1.5rem;
+    color: #fff;
+    justify-content: center;
+    display: flex;
+    margin-left: 1rem;
+}
+
+.div-button button:hover {
+    background-color: #bebebe;
+}
+
+.div-button button:active {
+    box-shadow: 0 .3rem #666;
+    transform: translateY(4px);
 }
 
 #buttonBlue {
     background-color: #FF0000;
-    font-size: 1.1rem;
-    color: #fff;
-    width: 10rem;
-    height: 2.5rem;
-    border-radius: .6rem;
-    border-color: #fff;
 }
 
 #buttonRed {
-    background-color: #1E90FF;
-    font-size: 1.1rem;
-    color: #fff;
-    width: 10rem;
-    height: 2.5rem;
-    border-radius: .6rem;
-    border-color: #fff;
+    background-color: #1E90FF;   
 }
 
+.fundoBlue {
+    background: #1488CC;
+    background: -webkit-linear-gradient(to left, #2B32B2, #1275ad);
+    background: linear-gradient(to left, #2B32B2, #1488CC);
+}
 
+.fundoRed {
+    background: #ED213A;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #93291E, #ED213A);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #93291E, #ED213A); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
