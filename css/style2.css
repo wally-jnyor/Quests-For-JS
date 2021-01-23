@@ -1,0 +1,74 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css');
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+
+:root {
+    --font-primary: "Indie flower";
+}
+
+* {
+    background: #218ac7;
+}
+
+.page2 {
+    margin-top: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.page2 h1 {
+    font-family: var(--font-primary);
+    font-size: 10rem;
+    color: #da1818;
+}
+
+.page2 i::before {
+    display: flex;
+    justify-content: center;
+    margin-left: 7rem;
+}
+
+.bGoBack {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -5rem;
+    margin-left: 29rem;
+}
+
+.bGoBack button {
+    font-size: 1.2rem;
+    background: #da1818;
+    width: 3.5rem;
+    height: 2rem;
+    border: none;
+    outline: none;
+    border-radius: .5rem;
+    cursor: pointer;
+
+}
+    
+.bGoBack button:hover {
+    background-color: #bebebe;
+}
+
+.bGoBack button:active {
+    box-shadow: 0 .3rem #666;
+    transform: translateY(4px);
+}
+
+#GoBack i::before {
+    font-size: 1rem;
+    color: #fff;
+    justify-content: center;
+    display: flex;
+    margin-left: .5rem;
+}
+
+#GoBack i::before {
+    font-size: 1.5rem;
+    color: #fff;
+    justify-content: center;
+    display: flex;
+    margin-left: .5rem;
+}

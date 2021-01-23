@@ -26,6 +26,7 @@
     cursor: pointer;
 }
 
+
 .BcolorB i::before {
     font-size: 1.5rem;
     color: #fff;
@@ -51,6 +52,11 @@
     transform: translateY(4px);
 }
 
+
+#changePage {
+    background-color: red;
+}
+
 #buttonBlue {
     background-color: #FF0000;
 }
@@ -66,8 +72,61 @@
 }
 
 .fundoRed {
-    background: #ED213A;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to left, #93291E, #ED213A);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #93291E, #ED213A); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: #ED213A;
+    background: -webkit-linear-gradient(to left, #93291E, #ED213A);
+    background: linear-gradient(to right, #93291E, #ED213A);
 
 }
+
+
+.div-button-2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3rem;
+}
+
+.div-button-2 button {
+    font-family: var(--font-primary);
+    font-size: 1.6rem;
+    color: rgb(201, 45, 45);
+    width: 7.3rem;
+    height: 2.5rem;
+    margin-left: 19rem;
+    border-radius: .5rem;
+    border: none;
+    outline: none;
+    box-shadow: 0 .4rem #bebebe;
+    cursor: pointer;
+}
+
+.div-button-2 button:hover {
+    background-color: #bebebe;
+}
+
+.div-button-2 button:active {
+    box-shadow: 0 .3rem #666;
+    transform: translateY(4px);
+}
+
+#Bchange i::before {
+    font-size: 1rem;
+    color: #fff;
+    justify-content: center;
+    display: flex;
+    margin-left: .5rem;
+}
+
+#Bchange i::before {
+    font-size: 1.5rem;
+    color: #fff;
+    justify-content: center;
+    display: flex;
+    margin-left: .5rem;
+}
+
+#Bchange {
+    background-color: #6367be;
+}
+
+
